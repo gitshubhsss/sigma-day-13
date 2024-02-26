@@ -1,0 +1,13 @@
+div{
+    height: 500px;
+    width: 850px;
+    background-color: #7aa874;
+    margin: 30px auto;
+    background-image: url("baground.jpg");
+    /* contain will not crop or cut the image if it has space it will repeat the image */
+    /* background-size: contain; */
+    /* cover will crop the image from the bottom */
+    /* background-size: cover; */
+    background-size: cover;
+
+}
