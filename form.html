@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input[type="checkbox"]:checked + label{
+            color: green;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name">
+        </div>
+        <br>
+        <div>
+            <label for="gender">Sex:</label>
+            <input type="radio" name="gender" id="male">Male
+            <input type="radio" name="gender" id="female">Female
+        </div>
+        <br>
+        <div>
+            <label for="country">country:</label>
+            <select name="country" id="country">
+                <option value="">select your country</option>
+                <option value="india">India</option>
+                <option value="pak">Pakistan</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="message">Message :</label>
+            <br>
+            <textarea name="message" id="message" cols="20" rows="5"></textarea>
+        </div>
+        <div>
+            <input type="checkbox" name="checkbox" id="subscribe">
+            <label for="subscribe">Subsribe ?</label>
+        </div>
+        <br>
+        <button>Submit</button>
+    </form>
+</body>
+
+</html>
